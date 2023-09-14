@@ -1,0 +1,67 @@
+:root {
+  --purple: #4e4187;
+  --blue: #3083dc;
+  --cream: #f8ffe5;
+  --green: #7dde92;
+  --aqua: #1c7363;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--cream);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  display: flex;
+  padding: 1em;
+  box-shadow: 0 3px 5px #555;
+  margin-bottom: 1em;
+}
+
+.article-details {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  flex-wrap: wrap;
+}
+
+.newsfeed {
+  font-size: 2.5em;
+  text-align: center;
+  color: black;
+}
+
+.title {
+  font-size: 1.25em;
+  color: var(--purple);
+}
+
+.author {
+  font-size: 1.1em;
+  color: var(--blue);
+  margin-top: 0.05em;
+  margin-bottom: 0.5em;
+}
+
+.information {
+  font-size: 0.8em;
+  color: var(--aqua);
+}
+
+.news-img {
+  width: 10em;
+  display: flex;
+  padding-right: 1em;
+}
